@@ -1,0 +1,88 @@
+.register {
+    width: 1000px;
+    margin: 0 auto;
+}
+.register-top {
+    height: 76px;
+    width: 1000px;
+
+}
+.register-mid {
+    width: 1000px;
+    height: 522px;
+    padding: 20px 0;
+    position: relative;
+
+
+}
+.register-mid-img {
+    width: 260px;
+    height: 562px;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+.register-mid-img img {
+
+
+}
+.register-mid-input {
+    width: 600px;
+
+    margin-top: 50px;
+    padding-left: 60px;
+    font: 14px "simsun";
+    border-right: 2px dotted #000000;
+}
+
+.register-mid-input input {
+    margin: 10px 0;
+    font: 14px/25px "simsun";
+    padding-right: 5px;
+}
+.register-mid-input .cbox {
+    margin-left: 100px;
+}
+.register-mid-input .cbox a:hover {
+    text-decoration: underline;
+}
+.register-mid-input .agree {
+    width: 250px;
+    font: 700 18px/42px "simsun";
+    color: #ffffff;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 15px;
+    background-color: #EE3388;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.register-mid-input .im {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.register-mid-input .im a {
+    color: #0099CC;
+}
+.register-mid-input .im a:hover {
+    text-decoration: underline;
+}
+.register-mid-input .img {
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.register-mid-input .img img{
+    width: 160px;
+    height: 53px;
+}
+.register-mid-input i {
+    background: url("images/register/yanzhengma.png") no-repeat;
+}
+
+.register-bottom {
+    width: 1000px;
+    height: 185px;
+}

@@ -1,0 +1,576 @@
+body {
+    background:#E6E6E6 url("../images/wa.jpg") repeat-x;
+}
+/*logo start*/
+.logo {
+    width: 345px;
+    height: 85px;
+    position: relative;
+    margin: 45px auto 0 auto;
+    background: url("../images/LogoImg.jpg") no-repeat;
+}
+/*logo end*/
+
+/*ewma  start*/
+.ewma {
+    width: 150px;
+    height: 110px;
+    position: fixed;
+    right: 0;
+    top: 200px;
+
+
+}
+
+.ewma a {
+    display: block;
+    width: 40px;
+    height: 110px;
+    float: right;
+    font: 16px "simsun";
+    text-align: center;
+    background-color: yellowgreen;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.ewma img {
+    display: block;
+    width: 100px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+
+}
+/*ewma  end*/
+
+
+/*right-slide start */
+.right-slide {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 0;
+    top: 150px;
+}
+.right-slide img {
+    width: 150px;
+    height: 150px;
+}
+
+/*right-slide end */
+
+/*banner start*/
+.banner {
+    width: 1000px;
+    height: 376px;
+    background: url("../images/logobg.png") no-repeat;
+    position: relative;
+}
+
+.banner a {
+    display: none;
+    width: 1000px;
+    height: 376px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.banner .showImg {
+    display: block;
+}
+.banner>img {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    z-index: 12;
+}
+.banner-btn {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -45px;
+    z-index: 12;
+}
+.banner-btn li {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: tan;
+    float: left;
+    position: relative;
+
+
+
+}
+/*banner end*/
+
+
+
+/*main-nav start*/
+
+.meau-nav {
+    height: 105px;
+    width: 990px;
+    margin-top: 10px;
+    padding-left: 10px;
+    line-height: 82px;
+    background: url("../images/menu.png") no-repeat;
+}
+.meau-nav-list div {
+    float: left;
+    height: 30px;
+    margin: 0 8px 0 9px;
+    font: 16px/82px "microsoft yahei";
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+}
+.meau-nav-list span {
+    display: block;
+    height: 30px;
+    color: #ffffff;
+    float: left;
+}
+.meau-nav-list ul {
+    width: 70px;
+    margin-top: -26px;
+    display: none;
+    position: absolute;
+    top: 82px;
+}
+.meau-nav-list ul li {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: brown;
+}
+.meau-nav-list ul li:hover {
+    background-color: tan;
+}
+/*main-nav end*/
+
+
+
+/*cont start*/
+.cont {
+    width:100%;
+    height: 244px;
+
+    margin-bottom: 26px;
+   
+
+}
+.cont-left {
+    width: 264px;
+    height: 240px;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+    margin-right: 16px;
+    float: left;
+}
+.cont-left img {
+    width: 264px;
+    height: 240px;
+}
+
+
+.cont-mid {
+    width: 448px;
+    height: 240px;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+    float: left;
+    background: url("../images/bg31_r2_c2.png") no-repeat;
+}
+.cont-mid-top {
+    height: 30px;
+
+    border-bottom: 2px solid #CCCCCC;
+}
+.cont-mid-top a {
+    float: right;
+    margin-right: 60px;
+    color: #662A2B;
+    font: 16px/30px "simsun";
+}
+.cont-mid-top a:hover {
+    color: red;
+}
+.cont-mid-bottom ul{
+    width: 430px;
+    margin-left: 8px;
+
+}
+.cont-mid-bottom ul li {
+    height: 32px;
+    line-height: 32px;
+    font-weight: bold;
+    border-bottom: 2px dashed #CCCCCC;
+}
+.cont-mid-bottom ul li a:hover {
+    text-decoration: underline;
+}
+.cont-mid-bottom i {
+    float: right;
+}
+.cont-mid-bottom s {
+    margin-right: 15px;
+    color: black;
+}
+
+
+.cont-right {
+    width: 245px;
+    height: 240px;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+    float: right;
+    background: url("../images/bg31_r2_d2.png") no-repeat;
+}
+.cont-right-top {
+    height: 30px;
+    border-bottom: 2px solid #CCCCCC;
+}
+.cont-right-content {
+    margin-top: 32px;
+}
+
+/*cont end*/
+
+
+
+
+/*middle-banner start*/
+.middle-banner img {
+    display: block;
+    width: 1000px;
+    height: 95px;
+}
+/*middle-banner end*/
+
+
+
+
+/*exhibition  start*/
+.exhibition {
+    width: 1000px;
+    height: 226px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.exhibition ul {
+    width: 1200px;
+}
+.exhibition li {
+    width: 210px;
+    height: 226px;
+    float: left;
+}
+.exhibition img {
+    display: block;
+    width: 840px;
+    height: 226px;
+}
+/*exhibition  end*/
+
+
+
+/*intro start */
+.intro {
+    width: 1000px;
+    height: 326px;
+    margin-top: 20px;
+    background: url("../images/m326.jpg") no-repeat;
+    position: relative;
+}
+.intro-left-top,.intro-right-top{
+    position: absolute;
+    left: 15px;
+    top: 12px;
+}
+.intro-left-top div,.intro-right-top div {
+    float: left;
+    margin-right: 16px;
+    font:700 16px/30px "microsoft yahei";
+    cursor: pointer;
+}
+.intro-left-top .cur1,.intro-right-top .cur1 {
+    color: #662A2B;
+}
+
+.intro-left-bottom a {
+    display: block;
+    width: 446px;
+    height: 264px;
+    position: absolute;
+    left: 15px;
+    top: 60px;
+    display: none;
+}
+.intro-left-bottom a:hover {
+    color: #666666;
+}
+
+.intro-left-bottom .cur2,.intro-right-bottom .cur2 {
+    display: block;
+}
+.intro-left-bottom p {
+    margin-top: 15px;
+    font: 14px/20px "simsun";
+}
+.intro-left-bottom i {
+    float: right;
+    cursor: pointer;
+    font: 14px/20px "simsun";
+}
+
+
+.intro-right {
+    width: 476px;
+    float: right;
+    position: relative;
+}
+.intro-right a {
+    display: block;
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    left: 15px;
+    top: 60px;
+    display: none;
+}
+
+
+/*intro end */
+
+
+
+
+/*famous start */
+.famous {
+    width: 990px;
+    height: 255px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    position: relative;
+}
+.famous li {
+    height: 275px;
+    background-color: #EAEAEA;
+    position: absolute;
+    z-index: 0;
+
+}
+
+.famous div {
+    width: 230px;
+    float: left;
+    margin-right: 17px;
+    position: relative;
+    text-align: center;
+}
+.famous .bgm275 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.famous div a {
+    color: #743F40;
+    font: 16px/20px "microsoft yahei";
+}
+.famous div a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*intro end */
+
+
+
+
+
+/*link start */
+.link {
+    width: 1000px;
+    height: 204px;
+    background: url("../images/m204.png") no-repeat;
+    position: relative;
+}
+.link-contact-top {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font: 20px/20px "simsun";
+    color: #662A2B;
+}
+.link-contact-bottom {
+    position: absolute;
+    top: 54px;
+    left: 20px;
+}
+.link-contact-bottom p {
+    height: 30px;
+    font: 700 14px/20px "simsun";
+}
+.link-lunbo {
+    width: 650px;
+    height: 170px;
+    position: absolute;
+    left: 322px;
+    top: 16px;
+    overflow: hidden;
+
+}
+.link-lunbo ul {
+    width: 1760px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.link-lunbo li {
+    width: 210px;
+    height: 170px;
+    margin-right: 10px;
+    float: left;
+}
+.link-lunbo img {
+    display: block;
+    width: 210px;
+    height: 170px;
+    cursor: pointer;
+
+}
+/*link end */
+
+
+
+
+/*fotter start */
+.fotter-top {
+    width: 1000px;
+    height: 114px;
+    margin-top: 50px;
+    background: url("../images/foot%20(1).png") no-repeat;
+    position: relative;
+}
+.fotter-top-list {
+    height: 30px;
+    line-height: 30px;
+    width: 870px;
+    position: absolute;
+    left: 80px;
+    top: 90px;
+    font: 14px "simsun";
+
+}
+.fotter-top-list a {
+    color: #7D4C4D;
+    margin-right: 10px;
+}
+.fotter-top-list a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.fotter-bottom {
+    height: 212px;
+    text-align: center;
+}
+.fotter-bottom p {
+    font: 14px/50px "simsun";
+   color: black;
+}
+.fotter-bottom a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.fotter-bottom .p1 {
+    color: #666666;
+    font: 12px/18px "simsun";
+}
+/*fotter end */
+
+
+
+/*hjian start */
+.hjian {
+    position: absolute;
+    right: 60px;
+    top: 2300px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: gray;
+    color: black;
+    font:700 30px/50px "simsun";
+}
+
+/*hjian end */
+
+
+
+/*little-banner start*/
+.little-banner {
+    width: 140px;
+    height: 140px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.little-banner-top {
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    color: orangered;
+    background-color: tan;
+    border-bottom: 2px dashed #999999;
+
+}
+.little-banner-bottom {
+    width: 140px;
+    height: 100px;
+
+}
+.little-banner-bottom img {
+    width: 140px;
+    height: 100px;
+}
+
+.little-banner span {
+    display: block;
+    width: 20px;
+
+    text-align: center;
+    font: 700 12px/20px "simsun";
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    color: black;
+}
+/*little-banner end*/
+
+
+
+
+
+
+
+
+
+
+
